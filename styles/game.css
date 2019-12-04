@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+    background-color: #91ADC2;
+}
+
+#cellContainer {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+table {
+    background-color: #497F89;
+    border-spacing: 0px;
+}
+
+td {
+    border: 1px solid #1A3A3A;
+    width: 10px;
+    height: 10px;
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #F7EBE8;
+}
+
+.control {
+    padding-top: 10px;
+}
